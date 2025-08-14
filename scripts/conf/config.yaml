@@ -1,0 +1,14 @@
+data_path: "/app/data/taxi_dataset.csv"
+train_ratio: 0.7
+model:
+  objective: "regression"
+  metric: "rmse"
+  boosting_type: "gbdt"
+  num_leaves: 30
+  learning_rate: 0.05
+  feature_fraction: 0.9
+  bagging_fraction: 0.8
+  bagging_freq: 5
+train:
+  num_boost_round: 1000
+  early_stopping_rounds: 10

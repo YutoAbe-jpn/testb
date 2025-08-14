@@ -1,0 +1,30 @@
+name: バグ報告
+description: 書籍のコードに従っても動作しない、またはバグがある場合はこちらを選択
+labels: ["bug"]
+body:
+- type: textarea
+  attributes:
+    label: 実行時のエラー内容
+    description: 実行エラーの詳細をご記入ください。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: エラーの詳細
+    description: エラーメッセージやログの一部を貼り付けてください。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 実行環境の情報
+    description: |
+      例:
+        - OS: macOS 14 / Ubuntu 22.04
+        - Python: 3.10.12
+        - ライブラリのバージョンなど
+    placeholder: |
+      OS:
+      Python:
+      ライブラリのバージョン:
+  validations:
+    required: true

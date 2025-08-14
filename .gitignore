@@ -1,0 +1,25 @@
+# Pythonのバイトコード
+__pycache__/
+# pytest, mypyのキャッシュ
+.pytest_cache/
+.mypy_cache/
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints
+# 環境変数ファイル
+.env
+# VSCodeの設定ファイル
+.vscode/
+# macOSのDS_システムファイル
+.DS_Store
+# .gitkeep以外のdataディレクトリ
+data/*
+!data/.gitkeep
+# .gitkeep以外のmodelディレクトリ
+model/*
+!model/.gitkeep
+# .gitkeep以外のoutputsディレクトリ
+outputs/*
+!outputs/.gitkeep
+# MLflowの出力ディレクトリ
+mlruns/
+multirun/
