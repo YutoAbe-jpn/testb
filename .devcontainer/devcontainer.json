@@ -1,4 +1,4 @@
-{
+    {
   "name": "Existing Docker Compose (Extend)",
   "dockerComposeFile": ["../compose.yml"],
   "service": "app",
